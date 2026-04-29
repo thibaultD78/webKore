@@ -4,7 +4,7 @@
     --sidebar-width: 300px;
     --header-height: 200px;
     --nav-height: 60px;
-    --white: #FFFFFF;
+    --white: #ffffff;
 }
 
 * { box-sizing: border-box; }
@@ -61,7 +61,7 @@ body, html {
     padding: 20px 10px;
     font-weight: bold;
     font-size: 1.1rem;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
     transition: all 0.2s ease;
 }
