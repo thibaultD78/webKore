@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Kore Inc. - Layer 01</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="global-wrapper">
+        
+        <div class="left-column">
+            <div class="logo-area">
+                <img src="Sans_titre_47_20260425050322.png" alt="Logo" class="logo-image">
+            </div>
+            
+            <aside class="sidebar">
+                <nav class="side-nav">
+                    <button onclick="scrollToSection('section1')">NOUS</button>
+                    <button onclick="scrollToSection('section2')">NUMERISAT.</button>
+                    <button onclick="scrollToSection('section3')">PROJET WAZ</button>
+                    <button onclick="scrollToSection('section4')">Nous Rejoindre</button>
+                </nav>
+                <div class="side-footer">
+                    <p>WEB KORE INC. Tous Droits réservés</p>
+                </div>
+            </aside>
+        </div>
+
+        <div class="right-column">
+            <header>
+                <h1 id="main-title">Web Kore Inc.</h1>
+            </header>
+
+            <nav class="layer-nav">
+                <a href="index.html" class="layer-btn active">LAYER 01</a>
+                <a href="layer2.html" class="layer-btn">LAYER 02</a>
+                <a href="layer3.html" class="layer-btn">LAYER 03</a>
+                <a href="layer4.html" class="layer-btn">LAYER 04</a>
+                <a href="layer5.html" class="layer-btn">LAYER 05</a>
+            </nav>
+
+            <main class="content-area">
+                <section id="section1">
+                    <div class="hand-drawn-line"></div>
+                    <p>Contenu du Layer 01 (Chariabia de texte ici...)</p>
+                    <div class="image-placeholder"></div>
+                    <div class="hand-drawn-line"></div>
+                </section>
+                <section id="section2"><h2>Numérisation</h2><p>Texte...</p></section>
+                <section id="section3"><h2>Projet Waz</h2><p>Texte...</p></section>
+                <section id="section4"><h2>Nous Rejoindre</h2><p>Texte...</p></section>
+            </main>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
