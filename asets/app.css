@@ -176,3 +176,23 @@ h2 {
     background-color: var(--brown);
     margin: 40px 0;
 }
+.layer-nav button {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none; /* On enlève le style bouton par défaut */
+    border-right: var(--border-thick) solid var(--brown);
+    color: var(--brown);
+    font-weight: bold;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit; /* Pour garder la même police */
+}
+
+.layer-nav button.active {
+    background-color: var(--brown);
+    color: var(--white);
+}
